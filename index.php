@@ -96,10 +96,123 @@
 
 
 
+		
 
+
+		<br>
+		<br>
+
+
+			<!--	Using array_merge function 	-->
+
+		<?php
 
 
 		
+			$boxOne = array(1, 2, 3, 4, 5, 6);
+
+			$boxTwo = array(7, 8, 9, 10, 11, 12);
+			  
+			
+			$boxOne = array_merge($boxOne, $boxTwo); 
+			  
+			echo "Array  Contents: ";
+			  
+			
+			foreach ($boxOne as $value) {
+			    echo $value . "\n";
+			}
+
+
+
+
+
+		?>
+
+
+
+
+
+		<br>
+		<br>
+
+		
+			<!--	Using While loop 	-->
+
+
+
+		<?php
+
+
+			$count = 1;
+
+			while($count <= 15){
+
+				echo $count;
+				echo "<br>" ;
+
+				$count++;
+			}
+
+
+
+		?>
+
+
+		<!--	Using switch case & function	-->
+
+		
+
+		<?php
+
+
+			$day = "5";
+
+			switch ($day) {
+			    case "1":
+
+			        echo "It is Monday!";
+			        break;
+
+			    case "2":
+
+			        echo "It is today!";
+			        break;
+
+			    case "3":
+
+			        echo "It is Wednesday!";
+			        break;
+
+				case "4":
+
+			        echo "It is Thursday!";
+			        break;
+
+			    case "5":
+
+			        echo "It is Friday!";
+			        break;
+
+			    case "6":
+
+			        echo "It is Saturday!";
+			        break;
+
+				case "7":
+
+			        echo "It is Sunday!";
+			        break;
+
+			    default:
+			        echo "Invalid number!";
+
+			}
+
+
+		?>
+
+
 
 		
 
